@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
 
 body {
-  font-family: 'Open Sans';
-  background: #6e00ff;
-  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  color: #000;
   font-size: 16px;
   line-height: 1.35;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 15px;
+  font-weight: 700;
 }
 
 h1, h2, h3 {
@@ -25,7 +30,7 @@ h6 { font-size: 10px; }
 
 p {
   font-size: 16px;
-  line-height: 1.35;
+  line-height: 1.4;
   margin-bottom: 15px;
 }
 
@@ -38,4 +43,8 @@ p {
   h1 { font-size: 24px; }
   h2 { font-size: 18px; }
   h3 { font-size: 14px; }
+  p {
+    font-size: 14px;
+    line-height: 1.45;
+  }
 }
