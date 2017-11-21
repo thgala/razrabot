@@ -1,2 +1,6 @@
 # razrabot
-improving developer productivity
+Improving developer productivity
+
+- Clone the repo
+- `yarn install`
+- `yarn start`
