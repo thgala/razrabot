@@ -1,0 +1,15 @@
+.Promo {
+  background: linear-gradient(90deg, rgb(59, 11, 138), rgb(106, 37, 216));
+}
+
+.Promo__wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Promo h1 {
+  color: #fff;
+}

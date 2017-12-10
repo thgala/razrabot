@@ -8,10 +8,13 @@ class Header extends Component {
     return (
       <div className='Header'>
         <LayoutContainer>
-          <h1>Korem ipsum</h1>
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <div className='Header__wrap'>
+            <div className='Header__logo' />
+            <div className='Header__menu'>
+              <div className='Header__menuItem'>Development team</div>
+              <div className='Header__menuItem'>Contacts</div>
+            </div>
+          </div>
         </LayoutContainer>
       </div>
     )

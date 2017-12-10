@@ -1,0 +1,41 @@
+.Header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.Header__wrap {
+  display: flex;
+}
+
+.Header__logo {
+  width: 81px;
+  height: 20px;
+  padding: 10px;
+  margin-top: 15px;
+  border: 2px solid #fff;
+
+  background-position: 50% 50%;
+  background-size: auto 20px;
+  background-repeat: no-repeat;
+  background-image: url(./assets/logo.svg);
+}
+
+.Header__menu {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.Header__menuItem {
+  color: #fff;
+  padding: 15px 0;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.Header__menuItem:last-child {
+  margin-right: 0;
+}
