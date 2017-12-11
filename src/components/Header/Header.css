@@ -1,5 +1,5 @@
 .Header{
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
@@ -8,17 +8,18 @@
 
 .Header__wrap {
   display: flex;
+  align-items: center;
 }
 
 .Header__logo {
-  width: 81px;
-  height: 20px;
-  padding: 10px;
-  margin-top: 15px;
-  border: 2px solid #fff;
+  width: 85px;
+  height: 21px;
+  /* padding-right: 15px; */
+  /* margin-top: 15px; */
+  /* border-bottom: 15px solid #8fffdd; */
 
-  background-position: 50% 50%;
-  background-size: auto 20px;
+  background-position: 0 0;
+  background-size: auto 21px;
   background-repeat: no-repeat;
   background-image: url(./assets/logo.svg);
 }
@@ -30,10 +31,21 @@
 }
 
 .Header__menuItem {
-  color: #fff;
   padding: 15px 0;
   margin-right: 30px;
   cursor: pointer;
+}
+
+.Header__menuItem > div {
+  transition: color 0.15s ease;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all 0.15s ease;
+}
+
+.Header__menuItem:hover > div {
+  color: #8fffdd;
+  border-bottom: 1px solid #8fffdd;
 }
 
 .Header__menuItem:last-child {

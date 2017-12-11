@@ -11,8 +11,8 @@ class Header extends Component {
           <div className='Header__wrap'>
             <div className='Header__logo' />
             <div className='Header__menu'>
-              <div className='Header__menuItem'>Development team</div>
-              <div className='Header__menuItem'>Contacts</div>
+              <div className='Header__menuItem'><div>Development team</div></div>
+              <div className='Header__menuItem'><div>Contacts</div></div>
             </div>
           </div>
         </LayoutContainer>

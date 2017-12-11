@@ -13,16 +13,20 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-h1, h2, h3 {
+h1 {
   line-height: 1.25;
 }
 
-h4, h5, h6 {
-  line-height: 1.35;
+h2, h3 {
+  line-height: 1.5;
 }
 
-h1 { font-size: 32px; }
-h2 { font-size: 24px; }
+h4, h5, h6 {
+  line-height: 1.45;
+}
+
+h1 { font-size: 48px; }
+h2 { font-size: 32px; }
 h3 { font-size: 18px; }
 h4 { font-size: 14px; }
 h5 { font-size: 12px; }
@@ -30,19 +34,71 @@ h6 { font-size: 10px; }
 
 p {
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 1.45;
   margin-bottom: 15px;
 }
 
+button {
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 30px;
+  min-width: 150px;
+  letter-spacing: 1px;
+  line-height: 1.45;
+  font-size: 16px;
+  background: rgba(152, 157, 240, 0.25);
+  border: 2px solid rgba(152, 157, 240, 0.75);
+  color: #fff;
+  cursor: pointer;
+
+  transition: all 0.1s ease;
+}
+
+button:hover {
+  background: rgba(152, 157, 240, 0.35);
+  border: 2px solid #989df0;
+}
+
+button:active {
+  background: rgba(152, 157, 240, 0.15);
+  border: 2px solid rgba(152, 157, 240, 0.5);
+}
+
+hr {
+  border: 0;
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+a {
+  font-size: 16px;
+  line-height: 1.45;
+  transition: all 0.1s ease;
+
+  color: #6a25d8;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(106, 37, 216, 0.5);
+}
+
+a:hover {
+  border-bottom: 1px solid rgba(106, 37, 216, 1);
+}
 
 @media screen and (max-width: 1279px) {
 
 }
 
 @media screen and (max-width: 719px) {
-  h1 { font-size: 24px; }
-  h2 { font-size: 18px; }
+  h1 { font-size: 32px; }
+  h2 { font-size: 24px; }
   h3 { font-size: 14px; }
+
+  h3 {
+    line-height: 1.65;
+    letter-spacing: 0.5px;
+  }
+
   p {
     font-size: 14px;
     line-height: 1.45;
