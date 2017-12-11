@@ -1,0 +1,14 @@
+.HowToUse{
+  padding: 60px 0;
+}
+
+.HowToUse h3 {
+  max-width: 700px;
+  margin: auto;
+}
+
+@media screen and (max-width: 719px) {
+  .HowToUse{
+    padding: 30px 0;
+  }
+}

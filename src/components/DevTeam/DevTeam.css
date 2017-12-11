@@ -1,5 +1,6 @@
 .DevTeam {
   padding: 60px 0;
+  background: rgba(152, 157, 240, 0.05);
 }
 
 .DevTeam h2 {
@@ -72,6 +73,18 @@
 @media screen and (max-width: 719px) {
   .DevTeam{
     padding: 30px 0;
+  }
+
+  .DevTeam__section {
+    flex-direction: column;
+  }
+
+  .DevTeam__person {
+    margin: 0 auto 60px auto;
+  }
+
+  .DevTeam__person:last-child {
+    margin-right: auto;
   }
 
   .DevTeam__personName {

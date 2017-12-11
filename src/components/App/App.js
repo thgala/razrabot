@@ -5,6 +5,7 @@ import './App.css'
 
 import Header from '../Header'
 import Promo from '../Promo'
+import HowToUse from '../HowToUse'
 import DevTeam from '../DevTeam'
 import Contacts from '../Contacts'
 
@@ -17,10 +18,10 @@ class App extends Component {
       <div className='App'>
         <Header />
         <Promo />
+        <HowToUse />
         <DevTeam
           list={DEV_TEAM_LIST}
         />
-        <hr />
         <Contacts />
       </div>
     )
