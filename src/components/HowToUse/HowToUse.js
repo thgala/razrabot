@@ -10,8 +10,9 @@ class HowToUse extends Component {
       <div className='HowToUse'>
         <LayoutContainer>
           <h3>
-            I can help you to analyse your development velocity - how accurate you are with the task estimations.
-            I will give you a feedback which helps you to understand where to improve your professional skills.
+            Klara has an intuitive and simple interface on the frontend side
+            and artificial intelligence driven system on other.
+            Klara believes in numbers and data analysis so it is a fair play — no reliable conclusions.
           </h3>
         </LayoutContainer>
       </div>

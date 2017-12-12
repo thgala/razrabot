@@ -16,15 +16,15 @@ class Promo extends Component {
             <div className='Promo__content'>
               <div className='Promo__texts'>
                 <h1>
-                  Hy, my name is Klara, <br/>
+                  Hy, my name is Klara. <br/>
                   I programmed for you
                 </h1>
                 <h3>
-                  I can help you to analyse your development velocity - how accurate you are with the task estimations.
-                  I will give you a feedback which helps you to understand where to improve your professional skills.
+                  A telegram chat bot built to analyse your development velocity and 
+                  show where to improve in skills and time.
                 </h3>
               </div>
-              <button>Start using bot</button>
+              <button>Start use me</button>
             </div>
           </LayoutContainer>
         </div>
