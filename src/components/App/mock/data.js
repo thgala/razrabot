@@ -25,7 +25,8 @@ export const DEV_TEAM_LIST = [
 
 export const HOW_TO_USE_STEPS = [
   {
-    imageUrl: 'https://firebasestorage.googleapis.com/v0/b/razrabot-87f49.appspot.com/o/step1.jpg?alt=media&token=503d586e-edc3-45ea-b8fc-ec7b51a43941',
+    // imageUrl: 'https://media.giphy.com/media/ogZhsbCyecSZy/giphy.gif',
+    imageUrl: '',
     title: 'Onboarding',
     description: `
       Lorem Ipsum has been the industry's standard dummy text ever
@@ -34,7 +35,8 @@ export const HOW_TO_USE_STEPS = [
     `,
   },
   {
-    imageUrl: 'https://firebasestorage.googleapis.com/v0/b/razrabot-87f49.appspot.com/o/step2.jpg?alt=media&token=bf6610f8-4339-4960-8616-4cc5d370fe84',
+    // imageUrl: 'https://media.giphy.com/media/ogZhsbCyecSZy/giphy.gif',
+    imageUrl: '',
     title: 'Add a task',
     description: `
       It has survived not only five centuries,
@@ -43,7 +45,8 @@ export const HOW_TO_USE_STEPS = [
     `,
   },
   {
-    imageUrl: 'https://firebasestorage.googleapis.com/v0/b/razrabot-87f49.appspot.com/o/step3.jpg?alt=media&token=b8ccb645-1686-4d09-9fbf-9ad5bd83a9fc',
+    // imageUrl: 'https://media.giphy.com/media/ogZhsbCyecSZy/giphy.gif',
+    imageUrl: '',
     title: 'Keep in the loop',
     description: `
       It is a long established fact that a reader will be distracted
@@ -51,7 +54,8 @@ export const HOW_TO_USE_STEPS = [
     `,
   },
   {
-    imageUrl: 'https://firebasestorage.googleapis.com/v0/b/razrabot-87f49.appspot.com/o/step3.jpg?alt=media&token=b8ccb645-1686-4d09-9fbf-9ad5bd83a9fc',
+    // imageUrl: 'https://media.giphy.com/media/ogZhsbCyecSZy/giphy.gif',
+    imageUrl: '',
     title: 'Finish a task',
     description: `
       It is a long established fact that a reader will be distracted

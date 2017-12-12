@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import './HowToUse.css'
 
 import LayoutContainer from '../LayoutContainer'
+import BrowserWrap from '../BrowserWrap'
 
 class HowToUse extends Component {
   render() {
@@ -20,10 +21,9 @@ class HowToUse extends Component {
             {steps.map((step, i) => {
               return (
                 <div className='HowToUse__box' key={i}>
-                  <div
-                    className='HowToUse__boxImage'
-                    style={{ backgroundImage: `url(${step.imageUrl})`, }}
-                  />
+                  <BrowserWrap className='HowToUse__boxImage' title='@Klara'>
+                    <img src={step.imageUrl} />
+                  </BrowserWrap>
                   <div className='HowToUse__boxText'>
                     <h3>
                       {step.title}
