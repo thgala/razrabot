@@ -10,7 +10,7 @@ import DevTeam from '../DevTeam'
 import Contacts from '../Contacts'
 
 // Store
-import { DEV_TEAM_LIST } from './mock/data'
+import { HOW_TO_USE_STEPS, DEV_TEAM_LIST, } from './mock/data'
 
 class App extends Component {
   render() {
@@ -18,7 +18,9 @@ class App extends Component {
       <div className='App'>
         <Header />
         <Promo />
-        <HowToUse />
+        <HowToUse
+          steps={HOW_TO_USE_STEPS}
+        />
         <DevTeam
           list={DEV_TEAM_LIST}
         />

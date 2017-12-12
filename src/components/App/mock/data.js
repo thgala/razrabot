@@ -22,3 +22,40 @@ export const DEV_TEAM_LIST = [
     },
   },
 ]
+
+export const HOW_TO_USE_STEPS = [
+  {
+    imageUrl: 'https://firebasestorage.googleapis.com/v0/b/razrabot-87f49.appspot.com/o/step1.jpg?alt=media&token=503d586e-edc3-45ea-b8fc-ec7b51a43941',
+    title: 'Onboarding',
+    description: `
+      Lorem Ipsum has been the industry's standard dummy text ever
+      since the 1500s, when an unknown printer took a galley of type
+      and scrambled it to make a type specimen book.
+    `,
+  },
+  {
+    imageUrl: 'https://firebasestorage.googleapis.com/v0/b/razrabot-87f49.appspot.com/o/step2.jpg?alt=media&token=bf6610f8-4339-4960-8616-4cc5d370fe84',
+    title: 'Add a task',
+    description: `
+      It has survived not only five centuries,
+      but also the leap into electronic typesetting,
+      remaining essentially unchanged. 
+    `,
+  },
+  {
+    imageUrl: 'https://firebasestorage.googleapis.com/v0/b/razrabot-87f49.appspot.com/o/step3.jpg?alt=media&token=b8ccb645-1686-4d09-9fbf-9ad5bd83a9fc',
+    title: 'Keep in the loop',
+    description: `
+      It is a long established fact that a reader will be distracted
+      by the readable content of a page when looking at its layout.
+    `,
+  },
+  {
+    imageUrl: 'https://firebasestorage.googleapis.com/v0/b/razrabot-87f49.appspot.com/o/step3.jpg?alt=media&token=b8ccb645-1686-4d09-9fbf-9ad5bd83a9fc',
+    title: 'Finish a task',
+    description: `
+      It is a long established fact that a reader will be distracted
+      by the readable content of a page when looking at its layout.
+    `,
+  },
+]
