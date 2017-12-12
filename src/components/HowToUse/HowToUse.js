@@ -14,7 +14,7 @@ class HowToUse extends Component {
           <h3 className='HowToUse__title'>
             <span>Klara</span> has an intuitive and simple interface on the frontend side
             and artificial intelligence driven system on other.
-            Klara believes in numbers and data analysis so it is a fair play — no reliable conclusions.
+            Klara believes in numbers and data analysis so it is a fair play — only reliable conclusions.
           </h3>
           <div className='HowToUse__content'>
             {steps.map((step, i) => {
